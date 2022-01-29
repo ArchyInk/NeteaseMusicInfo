@@ -1,0 +1,269 @@
+lockfileVersion: 5.3
+
+specifiers:
+  fs-extra: ^10.0.0
+  got: ^12.0.1
+  node-windows: ^1.0.0-beta.6
+
+dependencies:
+  fs-extra: 10.0.0
+  got: 12.0.1
+  node-windows: 1.0.0-beta.6
+
+packages:
+
+  /@sindresorhus/is/4.4.0:
+    resolution: {integrity: sha512-QppPM/8l3Mawvh4rn9CNEYIU9bxpXUCRMaX9yUpvBk1nMKusLKpfXGDEKExKaPhLzcn3lzil7pR6rnJ11HgeRQ==, tarball: https://registry.npmmirror.com/@sindresorhus/is/download/@sindresorhus/is-4.4.0.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /@szmarczak/http-timer/5.0.1:
+    resolution: {integrity: sha1-x8G/EUHN1HUbA5nI/HuLZkzVvjo=, tarball: https://registry.npmmirror.com/@szmarczak/http-timer/download/@szmarczak/http-timer-5.0.1.tgz}
+    engines: {node: '>=14.16'}
+    dependencies:
+      defer-to-connect: 2.0.1
+    dev: false
+
+  /@types/cacheable-request/6.0.2:
+    resolution: {integrity: sha1-wyTaAZfeCpiiMSFWU2riYkKf9rk=, tarball: https://registry.npmmirror.com/@types/cacheable-request/download/@types/cacheable-request-6.0.2.tgz}
+    dependencies:
+      '@types/http-cache-semantics': 4.0.1
+      '@types/keyv': 3.1.3
+      '@types/node': 17.0.13
+      '@types/responselike': 1.0.0
+    dev: false
+
+  /@types/http-cache-semantics/4.0.1:
+    resolution: {integrity: sha1-Dqe2FJaQK5WJDcTDoRa2DLja6BI=, tarball: https://registry.npmmirror.com/@types/http-cache-semantics/download/@types/http-cache-semantics-4.0.1.tgz}
+    dev: false
+
+  /@types/keyv/3.1.3:
+    resolution: {integrity: sha1-HJquMocuwfINza7omp87qI9GXkE=, tarball: https://registry.npmmirror.com/@types/keyv/download/@types/keyv-3.1.3.tgz}
+    dependencies:
+      '@types/node': 17.0.13
+    dev: false
+
+  /@types/node/17.0.13:
+    resolution: {integrity: sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==, tarball: https://registry.npmmirror.com/@types/node/download/@types/node-17.0.13.tgz}
+    dev: false
+
+  /@types/responselike/1.0.0:
+    resolution: {integrity: sha1-JR9P59FU0rrRJavhtCmyOv0mLik=, tarball: https://registry.npmmirror.com/@types/responselike/download/@types/responselike-1.0.0.tgz}
+    dependencies:
+      '@types/node': 17.0.13
+    dev: false
+
+  /cacheable-lookup/6.0.4:
+    resolution: {integrity: sha1-ZcDlFyG7f58stROu1tpKG5Otfcg=, tarball: https://registry.npmmirror.com/cacheable-lookup/download/cacheable-lookup-6.0.4.tgz}
+    engines: {node: '>=10.6.0'}
+    dev: false
+
+  /cacheable-request/7.0.2:
+    resolution: {integrity: sha1-6g0LiJNkolhUdXMByhKy2nf5HSc=, tarball: https://registry.npmmirror.com/cacheable-request/download/cacheable-request-7.0.2.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      clone-response: 1.0.2
+      get-stream: 5.2.0
+      http-cache-semantics: 4.1.0
+      keyv: 4.0.5
+      lowercase-keys: 2.0.0
+      normalize-url: 6.1.0
+      responselike: 2.0.0
+    dev: false
+
+  /clone-response/1.0.2:
+    resolution: {integrity: sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=, tarball: https://registry.npmmirror.com/clone-response/download/clone-response-1.0.2.tgz}
+    dependencies:
+      mimic-response: 1.0.1
+    dev: false
+
+  /decompress-response/6.0.0:
+    resolution: {integrity: sha1-yjh2Et234QS9FthaqwDV7PCcZvw=, tarball: https://registry.npmmirror.com/decompress-response/download/decompress-response-6.0.0.tgz}
+    engines: {node: '>=10'}
+    dependencies:
+      mimic-response: 3.1.0
+    dev: false
+
+  /defer-to-connect/2.0.1:
+    resolution: {integrity: sha1-gBa9tBQ+RjK3ejRJxiNid95SBYc=, tarball: https://registry.npmmirror.com/defer-to-connect/download/defer-to-connect-2.0.1.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /end-of-stream/1.4.4:
+    resolution: {integrity: sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=, tarball: https://registry.npmmirror.com/end-of-stream/download/end-of-stream-1.4.4.tgz}
+    dependencies:
+      once: 1.4.0
+    dev: false
+
+  /form-data-encoder/1.7.1:
+    resolution: {integrity: sha512-EFRDrsMm/kyqbTQocNvRXMLjc7Es2Vk+IQFx/YW7hkUH1eBl4J1fqiP34l74Yt0pFLCNpc06fkbVk00008mzjg==, tarball: https://registry.npmmirror.com/form-data-encoder/download/form-data-encoder-1.7.1.tgz}
+    dev: false
+
+  /fs-extra/10.0.0:
+    resolution: {integrity: sha1-n/YbZV3eU/s0qC34S7IUzoAuF8E=, tarball: https://registry.npmmirror.com/fs-extra/download/fs-extra-10.0.0.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.9
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: false
+
+  /get-stream/5.2.0:
+    resolution: {integrity: sha1-SWaheV7lrOZecGxLe+txJX1uItM=, tarball: https://registry.npmmirror.com/get-stream/download/get-stream-5.2.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      pump: 3.0.0
+    dev: false
+
+  /get-stream/6.0.1:
+    resolution: {integrity: sha1-omLY7vZ6ztV8KFKtYWdSakPL97c=, tarball: https://registry.npmmirror.com/get-stream/download/get-stream-6.0.1.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /got/12.0.1:
+    resolution: {integrity: sha512-1Zhoh+lDej3t7Ks1BP/Jufn+rNqdiHQgUOcTxHzg2Dao1LQfp5S4Iq0T3iBxN4Zdo7QqCJL+WJUNzDX6rCP2Ew==, tarball: https://registry.npmmirror.com/got/download/got-12.0.1.tgz}
+    engines: {node: '>=14.16'}
+    dependencies:
+      '@sindresorhus/is': 4.4.0
+      '@szmarczak/http-timer': 5.0.1
+      '@types/cacheable-request': 6.0.2
+      '@types/responselike': 1.0.0
+      cacheable-lookup: 6.0.4
+      cacheable-request: 7.0.2
+      decompress-response: 6.0.0
+      form-data-encoder: 1.7.1
+      get-stream: 6.0.1
+      http2-wrapper: 2.1.10
+      lowercase-keys: 3.0.0
+      p-cancelable: 3.0.0
+      responselike: 2.0.0
+    dev: false
+
+  /graceful-fs/4.2.9:
+    resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==, tarball: https://registry.npmmirror.com/graceful-fs/download/graceful-fs-4.2.9.tgz}
+    dev: false
+
+  /http-cache-semantics/4.1.0:
+    resolution: {integrity: sha1-SekcXL82yblLz81xwj1SSex045A=, tarball: https://registry.npmmirror.com/http-cache-semantics/download/http-cache-semantics-4.1.0.tgz}
+    dev: false
+
+  /http2-wrapper/2.1.10:
+    resolution: {integrity: sha512-QHgsdYkieKp+6JbXP25P+tepqiHYd+FVnDwXpxi/BlUcoIB0nsmTOymTNvETuTO+pDuwcSklPE72VR3DqV+Haw==, tarball: https://registry.npmmirror.com/http2-wrapper/download/http2-wrapper-2.1.10.tgz}
+    engines: {node: '>=10.19.0'}
+    dependencies:
+      quick-lru: 5.1.1
+      resolve-alpn: 1.2.1
+    dev: false
+
+  /json-buffer/3.0.1:
+    resolution: {integrity: sha1-kziAKjDTtmBfvgYT4JQAjKjAWhM=, tarball: https://registry.npmmirror.com/json-buffer/download/json-buffer-3.0.1.tgz}
+    dev: false
+
+  /jsonfile/6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==, tarball: https://registry.npmmirror.com/jsonfile/download/jsonfile-6.1.0.tgz}
+    dependencies:
+      universalify: 2.0.0
+    optionalDependencies:
+      graceful-fs: 4.2.9
+    dev: false
+
+  /keyv/4.0.5:
+    resolution: {integrity: sha512-531pkGLqV3BMg0eDqqJFI0R1mkK1Nm5xIP2mM6keP5P8WfFtCkg2IOwplTUmlGoTgIg9yQYZ/kdihhz89XH3vA==, tarball: https://registry.npmmirror.com/keyv/download/keyv-4.0.5.tgz}
+    dependencies:
+      json-buffer: 3.0.1
+    dev: false
+
+  /lowercase-keys/2.0.0:
+    resolution: {integrity: sha1-JgPni3tLAAbLyi+8yKMgJVislHk=, tarball: https://registry.npmmirror.com/lowercase-keys/download/lowercase-keys-2.0.0.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /lowercase-keys/3.0.0:
+    resolution: {integrity: sha1-xefUQuN+rSR66dsRep0KRnyJ1PI=, tarball: https://registry.npmmirror.com/lowercase-keys/download/lowercase-keys-3.0.0.tgz}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: false
+
+  /mimic-response/1.0.1:
+    resolution: {integrity: sha1-SSNTiHju9CBjy4o+OweYeBSHqxs=, tarball: https://registry.npmmirror.com/mimic-response/download/mimic-response-1.0.1.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /mimic-response/3.1.0:
+    resolution: {integrity: sha1-LR1Zr5wbEpgVrMwsRqAipc4fo8k=, tarball: https://registry.npmmirror.com/mimic-response/download/mimic-response-3.1.0.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /minimist/0.0.10:
+    resolution: {integrity: sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=, tarball: https://registry.npmmirror.com/minimist/download/minimist-0.0.10.tgz}
+    dev: false
+
+  /node-windows/1.0.0-beta.6:
+    resolution: {integrity: sha1-BL9mlGdgu4UH8dEyYmdYe1a4yLM=, tarball: https://registry.npmmirror.com/node-windows/download/node-windows-1.0.0-beta.6.tgz}
+    dependencies:
+      optimist: 0.6.1
+      xml: 0.0.12
+    dev: false
+
+  /normalize-url/6.1.0:
+    resolution: {integrity: sha1-QNCIW1Nd7/4/MUe+yHfQX+TFZoo=, tarball: https://registry.npmmirror.com/normalize-url/download/normalize-url-6.1.0.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /once/1.4.0:
+    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=, tarball: https://registry.npmmirror.com/once/download/once-1.4.0.tgz}
+    dependencies:
+      wrappy: 1.0.2
+    dev: false
+
+  /optimist/0.6.1:
+    resolution: {integrity: sha1-2j6nRob6IaGaERwybpDrFaAZZoY=, tarball: https://registry.npmmirror.com/optimist/download/optimist-0.6.1.tgz}
+    dependencies:
+      minimist: 0.0.10
+      wordwrap: 0.0.3
+    dev: false
+
+  /p-cancelable/3.0.0:
+    resolution: {integrity: sha1-Y4JmlLVNYcocIOvLbT7PXhTNgFA=, tarball: https://registry.npmmirror.com/p-cancelable/download/p-cancelable-3.0.0.tgz}
+    engines: {node: '>=12.20'}
+    dev: false
+
+  /pump/3.0.0:
+    resolution: {integrity: sha1-tKIRaBW94vTh6mAjVOjHVWUQemQ=, tarball: https://registry.npmmirror.com/pump/download/pump-3.0.0.tgz}
+    dependencies:
+      end-of-stream: 1.4.4
+      once: 1.4.0
+    dev: false
+
+  /quick-lru/5.1.1:
+    resolution: {integrity: sha1-NmST5rPkKjpoheLpnRj4D7eoyTI=, tarball: https://registry.npmmirror.com/quick-lru/download/quick-lru-5.1.1.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /resolve-alpn/1.2.1:
+    resolution: {integrity: sha1-t629rDVGqq7CC0Xn2CZZJwcnJvk=, tarball: https://registry.npmmirror.com/resolve-alpn/download/resolve-alpn-1.2.1.tgz}
+    dev: false
+
+  /responselike/2.0.0:
+    resolution: {integrity: sha1-JjkbzDF091D5p56sxAoSpcQtdyM=, tarball: https://registry.npmmirror.com/responselike/download/responselike-2.0.0.tgz}
+    dependencies:
+      lowercase-keys: 2.0.0
+    dev: false
+
+  /universalify/2.0.0:
+    resolution: {integrity: sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc=, tarball: https://registry.npmmirror.com/universalify/download/universalify-2.0.0.tgz}
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
+  /wordwrap/0.0.3:
+    resolution: {integrity: sha1-o9XabNXAvAAI03I0u68b7WMFkQc=, tarball: https://registry.npmmirror.com/wordwrap/download/wordwrap-0.0.3.tgz}
+    engines: {node: '>=0.4.0'}
+    dev: false
+
+  /wrappy/1.0.2:
+    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=, tarball: https://registry.npmmirror.com/wrappy/download/wrappy-1.0.2.tgz}
+    dev: false
+
+  /xml/0.0.12:
+    resolution: {integrity: sha1-8Is0cQmRK+AChXhfRvFa2OUKX2c=, tarball: https://registry.npmmirror.com/xml/download/xml-0.0.12.tgz}
+    engines: {node: '>=0.4.0'}
+    dev: false
