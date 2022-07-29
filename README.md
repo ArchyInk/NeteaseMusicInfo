@@ -5,6 +5,7 @@
 
 **运行**
 `pnpm install` 
+修改app.js中netmusicHistoryFilePath 为网易云音乐缓存地址，一般为C:\\Users\\{用户名}\\AppData\\Local\\Netease\\CloudMusic\\webdata\\file\\history
 `node service.js`
 打开系统服务找到NeteaseMusicLyric,自动运行即可
 
